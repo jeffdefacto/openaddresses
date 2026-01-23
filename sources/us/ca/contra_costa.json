@@ -22,15 +22,13 @@
                 "compression": "zip",
                 "conform": {
                     "format": "shapefile",
-                    "number": "street_num",
+                    "number": "sitenum",
                     "street": [
-                        "prefix_typ",
-                        "prefix_dir",
-                        "street_nam",
-                        "street_typ",
-                        "suffix_dir"
+                        "siteprefix",
+                        "sitestreet",
+                        "sitesuffix"
                     ],
-                    "unit": "unit_numbe",
+                    "unit": "siteunit",
                     "city": "city",
                     "region": "state",
                     "postcode": "zip_code"
